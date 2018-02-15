@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gift Component renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Gift />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": <Input
+        checked={false}
+        className="input-person"
+        label="person"
+        onChange={[Function]}
+        s={12}
+        type="name"
+>
+        <Icon>
+                account_circle
+        </Icon>
+</Input>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "checked": false,
+        "children": <Icon>
+          account_circle
+</Icon>,
+        "className": "input-person",
+        "label": "person",
+        "onChange": [Function],
+        "s": 12,
+        "type": "name",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "account_circle",
+        },
+        "ref": null,
+        "rendered": "account_circle",
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <Input
+          checked={false}
+          className="input-person"
+          label="person"
+          onChange={[Function]}
+          s={12}
+          type="name"
+>
+          <Icon>
+                    account_circle
+          </Icon>
+</Input>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "checked": false,
+          "children": <Icon>
+            account_circle
+</Icon>,
+          "className": "input-person",
+          "label": "person",
+          "onChange": [Function],
+          "s": 12,
+          "type": "name",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "account_circle",
+          },
+          "ref": null,
+          "rendered": "account_circle",
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;
