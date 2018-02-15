@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Row, Input, Icon } from 'react-materialize';
 
 class Gift extends Component {
   constructor() {
@@ -6,7 +7,19 @@ class Gift extends Component {
     this.state = { person: '', present: '' };
   }
   render() {
-    return <div> </div>;
+    return (
+      <Row>
+        <Input
+          s={12}
+          className="input-person"
+          type="name"
+          label="person"
+          onChange={event => this.setState({ person: event.target.value })}
+        >
+          <Icon>account_circle</Icon>
+        </Input>
+      </Row>
+    );
   }
 }
 
