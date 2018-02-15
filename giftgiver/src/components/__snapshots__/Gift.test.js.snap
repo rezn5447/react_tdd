@@ -23,8 +23,8 @@ ShallowWrapper {
           className="input-person"
           label="person"
           onChange={[Function]}
-          s={12}
-          type="name"
+          s={6}
+          type="text"
 >
           <Icon>
                     account_circle
@@ -33,10 +33,10 @@ ShallowWrapper {
         <Input
           checked={false}
           className="input-present"
-          label="person"
+          label="present"
           onChange={[Function]}
-          s={12}
-          type="name"
+          s={6}
+          type="text"
 >
           <Icon>
                     card_giftcard
@@ -58,8 +58,8 @@ ShallowWrapper {
           "className": "input-person",
           "label": "person",
           "onChange": [Function],
-          "s": 12,
-          "type": "name",
+          "s": 6,
+          "type": "text",
         },
         "ref": null,
         "rendered": Object {
@@ -85,10 +85,10 @@ ShallowWrapper {
             card_giftcard
 </Icon>,
           "className": "input-present",
-          "label": "person",
+          "label": "present",
           "onChange": [Function],
-          "s": 12,
-          "type": "name",
+          "s": 6,
+          "type": "text",
         },
         "ref": null,
         "rendered": Object {
@@ -119,8 +119,8 @@ ShallowWrapper {
             className="input-person"
             label="person"
             onChange={[Function]}
-            s={12}
-            type="name"
+            s={6}
+            type="text"
 >
             <Icon>
                         account_circle
@@ -129,10 +129,10 @@ ShallowWrapper {
           <Input
             checked={false}
             className="input-present"
-            label="person"
+            label="present"
             onChange={[Function]}
-            s={12}
-            type="name"
+            s={6}
+            type="text"
 >
             <Icon>
                         card_giftcard
@@ -154,8 +154,8 @@ ShallowWrapper {
             "className": "input-person",
             "label": "person",
             "onChange": [Function],
-            "s": 12,
-            "type": "name",
+            "s": 6,
+            "type": "text",
           },
           "ref": null,
           "rendered": Object {
@@ -181,10 +181,10 @@ ShallowWrapper {
               card_giftcard
 </Icon>,
             "className": "input-present",
-            "label": "person",
+            "label": "present",
             "onChange": [Function],
-            "s": 12,
-            "type": "name",
+            "s": 6,
+            "type": "text",
           },
           "ref": null,
           "rendered": Object {
