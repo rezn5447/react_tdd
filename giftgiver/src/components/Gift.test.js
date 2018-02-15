@@ -40,4 +40,6 @@ describe('Gift Component', () => {
       expect(gift.state().present).toEqual(present);
     });
   });
+
+  describe('when creating a gift item', () => {});
 });

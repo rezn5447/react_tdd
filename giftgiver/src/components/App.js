@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Button, Icon } from 'react-materialize';
+import Gift from './Gift';
 
 class App extends Component {
   constructor() {
