@@ -18,6 +18,15 @@ class Gift extends Component {
         >
           <Icon>account_circle</Icon>
         </Input>
+        <Input
+          s={12}
+          className="input-present"
+          type="name"
+          label="person"
+          onChange={event => this.setState({ present: event.target.value })}
+        >
+          <Icon>card_giftcard</Icon>
+        </Input>
       </Row>
     );
   }
