@@ -9,5 +9,7 @@ it('renders correctly', () => {
 });
 
 it('initializes the state with an empty list of gifts', () => {
-  expect(app.gifts).toBeEmpty();
+  expect(app.state().gifts).toEqual([]);
 });
+
+it('Adds a new gift to `state` when clicking the `add gift` button', () => {});
