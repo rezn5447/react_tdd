@@ -42,4 +42,10 @@ describe('Gift Component', () => {
   });
 
   describe('when creating a gift item', () => {});
+  describe('when clicking the `Remove Gift` button', () => {
+    beforeEach(() => {
+      gift.find('.btn-remove').simulate('click');
+    });
+    it('calls the removeGift callback', () => {});
+  });
 });
