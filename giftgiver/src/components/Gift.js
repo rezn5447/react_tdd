@@ -10,19 +10,19 @@ class Gift extends Component {
     return (
       <Row>
         <Input
-          s={12}
+          s={6}
           className="input-person"
-          type="name"
+          type="text"
           label="person"
           onChange={event => this.setState({ person: event.target.value })}
         >
           <Icon>account_circle</Icon>
         </Input>
         <Input
-          s={12}
+          s={6}
           className="input-present"
-          type="name"
-          label="person"
+          type="text"
+          label="present"
           onChange={event => this.setState({ present: event.target.value })}
         >
           <Icon>card_giftcard</Icon>
