@@ -48,6 +48,8 @@ describe('Gift Component', () => {
     beforeEach(() => {
       gift.find('.btn-remove').simulate('click');
     });
-    it('calls the removeGift callback', () => {});
+    it('calls the removeGift callback', () => {
+      expect(mockRemove).toHaveBeenCalledWith(id);
+    });
   });
 });

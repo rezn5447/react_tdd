@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Input, Icon } from 'react-materialize';
+import { Row, Input, Button, Icon } from 'react-materialize';
 
 class Gift extends Component {
   constructor() {
@@ -27,6 +27,10 @@ class Gift extends Component {
         >
           <Icon>card_giftcard</Icon>
         </Input>
+        <Button
+          className="btn-remove"
+          onClick={() => this.props.removeGift(this.props.gift.id)}
+        />
       </Row>
     );
   }
