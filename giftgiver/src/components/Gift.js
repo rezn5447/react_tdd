@@ -30,7 +30,9 @@ class Gift extends Component {
         <Button
           className="btn-remove"
           onClick={() => this.props.removeGift(this.props.gift.id)}
-        />
+        >
+          Remove Gift {this.props.gift.id}
+        </Button>
       </Row>
     );
   }

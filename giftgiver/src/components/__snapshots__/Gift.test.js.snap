@@ -53,7 +53,10 @@ ShallowWrapper {
           className="btn-remove"
           node="button"
           onClick={[Function]}
-/>,
+>
+          Remove Gift 
+          1
+</Button>,
       ],
     },
     "ref": null,
@@ -121,12 +124,19 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
+          "children": Array [
+            "Remove Gift ",
+            1,
+          ],
           "className": "btn-remove",
           "node": "button",
           "onClick": [Function],
         },
         "ref": null,
-        "rendered": null,
+        "rendered": Array [
+          "Remove Gift ",
+          1,
+        ],
         "type": [Function],
       },
     ],
@@ -167,7 +177,10 @@ ShallowWrapper {
             className="btn-remove"
             node="button"
             onClick={[Function]}
-/>,
+>
+            Remove Gift 
+            1
+</Button>,
         ],
       },
       "ref": null,
@@ -235,12 +248,19 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
+            "children": Array [
+              "Remove Gift ",
+              1,
+            ],
             "className": "btn-remove",
             "node": "button",
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": null,
+          "rendered": Array [
+            "Remove Gift ",
+            1,
+          ],
           "type": [Function],
         },
       ],
