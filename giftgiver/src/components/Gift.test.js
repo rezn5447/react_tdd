@@ -3,7 +3,10 @@ import { shallow } from 'enzyme';
 import Gift from './Gift';
 
 describe('Gift Component', () => {
-  const gift = shallow(<Gift />);
+  const mockRemove = jest.fn();
+  const id = 1;
+  const props = { gift: { id }, removeGift: mockRemove };
+  const gift = shallow(<Gift {...props} />);
 
   it('renders correctly', () => {
     expect(gift).toMatchSnapshot();
@@ -41,7 +44,6 @@ describe('Gift Component', () => {
     });
   });
 
-  describe('when creating a gift item', () => {});
   describe('when clicking the `Remove Gift` button', () => {
     beforeEach(() => {
       gift.find('.btn-remove').simulate('click');
