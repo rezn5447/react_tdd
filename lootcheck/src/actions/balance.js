@@ -14,9 +14,9 @@ export const deposit = deposit => {
   };
 };
 
-export const widthdrawl = widthdrawl => {
+export const withdraw = withdraw => {
   return {
-    type: constants.WIDTHDRAWL,
-    widthdrawl
+    type: constants.WITHDRAW,
+    withdraw
   };
 };
