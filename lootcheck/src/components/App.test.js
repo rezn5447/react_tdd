@@ -3,4 +3,10 @@ import { shallow } from 'enzyme';
 
 import App from './App';
 
-describe('App', () => {});
+describe('App', () => {
+  const app = shallow(<App />);
+
+  it('should render correctly', () => {
+    expect(app).toMatchSnapshot();
+  });
+});
