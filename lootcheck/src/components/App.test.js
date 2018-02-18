@@ -11,7 +11,8 @@ describe('App', () => {
   });
 
   it('should contain a connected Wallet component', () => {
-    console.log(app.debug());
     expect(app.find('Connect(Wallet)').exists()).toBe(true);
   });
 });
+
+// console.log(app.debug());
