@@ -1,4 +1,4 @@
-import React, { PropTypes, Component } from 'react';
+import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 export class Wallet extends Component {
@@ -12,8 +12,7 @@ export class Wallet extends Component {
 }
 
 const mapStateToProps = state => {
-  const { balance } = this.state;
-  return balance;
+  return { balance: state };
 };
 
 export default connect(mapStateToProps, null)(Wallet);
