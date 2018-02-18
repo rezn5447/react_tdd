@@ -1,4 +1,4 @@
-import blanceReducer from './balance';
+import balanceReducer from './balance';
 import * as constants from '../actions/constants';
 
 describe('balanceReducer', () => {
