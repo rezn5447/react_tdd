@@ -14,3 +14,10 @@ it('should create an action to deposit into the balance', () => {
 
   expect(actions.deposit(deposit)).toEqual(expectedAction);
 });
+
+it('should create an action to widthdrawl from the balance', () => {
+  const widthdrawl = 10;
+  const expectedAction = { type: constants.WIDTHDRAWL, widthdrawl };
+
+  expect(actions.widthdrawl(widthdrawl)).toEqual(expectedAction);
+});

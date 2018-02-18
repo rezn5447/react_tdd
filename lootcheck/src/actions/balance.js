@@ -13,3 +13,10 @@ export const deposit = deposit => {
     deposit
   };
 };
+
+export const widthdrawl = widthdrawl => {
+  return {
+    type: constants.WIDTHDRAWL,
+    widthdrawl
+  };
+};
