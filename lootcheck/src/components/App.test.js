@@ -9,4 +9,9 @@ describe('App', () => {
   it('should render correctly', () => {
     expect(app).toMatchSnapshot();
   });
+
+  it('should contain a connected Wallet component', () => {
+    console.log(app.debug());
+    expect(app.find('Connect(Wallet)').exists()).toBe(true);
+  });
 });
