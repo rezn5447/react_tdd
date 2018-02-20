@@ -14,5 +14,15 @@ describe('Wallet', () => {
     expect(wallet.find('.balance').text()).toEqual('Wallet Balance: 20');
   });
 
-  it('should have an input to deposit or withdraw from the balance', () => {});
+  it('should have an input to deposit or withdraw from the balance', () => {
+    expect(wallet.find('.input-wallet').exists()).toBe(true);
+  });
+
+  it('should have a button for withdraw', () => {
+    expect(wallet.find('.btn-withdraw').exists()).toBe(true);
+  });
+
+  it('should have a button for deposit', () => {
+    expect(wallet.find('.btn-deposit').exists()).toBe(true);
+  });
 });

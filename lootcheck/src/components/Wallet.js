@@ -9,7 +9,7 @@ export class Wallet extends Component {
         <h3 className="balance">Wallet Balance: {this.props.balance}</h3>
         <br />
         <Row>
-          <Input s={4} label="Amount" />
+          <Input s={4} className="input-wallet" label="Amount" />
           <Button
             waves="light"
             className="btn-deposit"

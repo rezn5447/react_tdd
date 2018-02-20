@@ -27,6 +27,36 @@ ShallowWrapper {
           20
 </h3>,
         <br />,
+        <Row>
+          <Input
+                    checked={false}
+                    className="input-wallet"
+                    label="Amount"
+                    s={4}
+                    type="text"
+          />
+          <Button
+                    className="btn-deposit"
+                    node="button"
+                    onClick={undefined}
+                    waves="light"
+          >
+                    Deposit
+          </Button>
+          <Button
+                    className="btn-withdraw"
+                    node="button"
+                    onClick={undefined}
+                    style={
+                              Object {
+                                        "margin": "0 10px",
+                                      }
+                    }
+                    waves="light"
+          >
+                    Withdraw
+          </Button>
+</Row>,
       ],
     },
     "ref": null,
@@ -58,6 +88,95 @@ ShallowWrapper {
         "rendered": null,
         "type": "br",
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <Input
+              checked={false}
+              className="input-wallet"
+              label="Amount"
+              s={4}
+              type="text"
+/>,
+            <Button
+              className="btn-deposit"
+              node="button"
+              onClick={undefined}
+              waves="light"
+>
+              Deposit
+</Button>,
+            <Button
+              className="btn-withdraw"
+              node="button"
+              onClick={undefined}
+              style={
+                            Object {
+                                          "margin": "0 10px",
+                                        }
+              }
+              waves="light"
+>
+              Withdraw
+</Button>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checked": false,
+              "className": "input-wallet",
+              "label": "Amount",
+              "s": 4,
+              "type": "text",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Deposit",
+              "className": "btn-deposit",
+              "node": "button",
+              "onClick": undefined,
+              "waves": "light",
+            },
+            "ref": null,
+            "rendered": "Deposit",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Withdraw",
+              "className": "btn-withdraw",
+              "node": "button",
+              "onClick": undefined,
+              "style": Object {
+                "margin": "0 10px",
+              },
+              "waves": "light",
+            },
+            "ref": null,
+            "rendered": "Withdraw",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
     ],
     "type": "div",
   },
@@ -75,6 +194,36 @@ ShallowWrapper {
             20
 </h3>,
           <br />,
+          <Row>
+            <Input
+                        checked={false}
+                        className="input-wallet"
+                        label="Amount"
+                        s={4}
+                        type="text"
+            />
+            <Button
+                        className="btn-deposit"
+                        node="button"
+                        onClick={undefined}
+                        waves="light"
+            >
+                        Deposit
+            </Button>
+            <Button
+                        className="btn-withdraw"
+                        node="button"
+                        onClick={undefined}
+                        style={
+                                    Object {
+                                                "margin": "0 10px",
+                                              }
+                        }
+                        waves="light"
+            >
+                        Withdraw
+            </Button>
+</Row>,
         ],
       },
       "ref": null,
@@ -105,6 +254,95 @@ ShallowWrapper {
           "ref": null,
           "rendered": null,
           "type": "br",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <Input
+                checked={false}
+                className="input-wallet"
+                label="Amount"
+                s={4}
+                type="text"
+/>,
+              <Button
+                className="btn-deposit"
+                node="button"
+                onClick={undefined}
+                waves="light"
+>
+                Deposit
+</Button>,
+              <Button
+                className="btn-withdraw"
+                node="button"
+                onClick={undefined}
+                style={
+                                Object {
+                                                "margin": "0 10px",
+                                              }
+                }
+                waves="light"
+>
+                Withdraw
+</Button>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "checked": false,
+                "className": "input-wallet",
+                "label": "Amount",
+                "s": 4,
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Deposit",
+                "className": "btn-deposit",
+                "node": "button",
+                "onClick": undefined,
+                "waves": "light",
+              },
+              "ref": null,
+              "rendered": "Deposit",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Withdraw",
+                "className": "btn-withdraw",
+                "node": "button",
+                "onClick": undefined,
+                "style": Object {
+                  "margin": "0 10px",
+                },
+                "waves": "light",
+              },
+              "ref": null,
+              "rendered": "Withdraw",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
         },
       ],
       "type": "div",
