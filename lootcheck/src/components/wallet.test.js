@@ -25,4 +25,17 @@ describe('Wallet', () => {
   it('should have a button for deposit', () => {
     expect(wallet.find('.btn-deposit').exists()).toBe(true);
   });
+
+  describe('when the user types into the wallet Input', () => {
+    const userBalance = '25';
+    beforeEach(() => {
+      wallet
+        .find('.input-wallet')
+        .simulate('change', { target: { value: userBalance } });
+    });
+
+    it('should update the local wallet balance in `state` and converts it to a number', () => {
+      expect(wallet.state().balance).toEqual(parseInt(userBalance, 10));
+    });
+  });
 });

@@ -32,6 +32,7 @@ ShallowWrapper {
                     checked={false}
                     className="input-wallet"
                     label="Amount"
+                    onChange={[Function]}
                     s={4}
                     type="text"
           />
@@ -98,6 +99,7 @@ ShallowWrapper {
               checked={false}
               className="input-wallet"
               label="Amount"
+              onChange={[Function]}
               s={4}
               type="text"
 />,
@@ -134,6 +136,7 @@ ShallowWrapper {
               "checked": false,
               "className": "input-wallet",
               "label": "Amount",
+              "onChange": [Function],
               "s": 4,
               "type": "text",
             },
@@ -199,6 +202,7 @@ ShallowWrapper {
                         checked={false}
                         className="input-wallet"
                         label="Amount"
+                        onChange={[Function]}
                         s={4}
                         type="text"
             />
@@ -265,6 +269,7 @@ ShallowWrapper {
                 checked={false}
                 className="input-wallet"
                 label="Amount"
+                onChange={[Function]}
                 s={4}
                 type="text"
 />,
@@ -301,6 +306,7 @@ ShallowWrapper {
                 "checked": false,
                 "className": "input-wallet",
                 "label": "Amount",
+                "onChange": [Function],
                 "s": 4,
                 "type": "text",
               },
